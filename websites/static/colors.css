@@ -1,0 +1,35 @@
+
+
+
+/***********************************/
+/* Colors used throughout the site */
+/***********************************/
+
+:root {
+
+  /* background */
+  --foreground: 250, 250, 250;
+
+  --color-gray-lite: 233, 233, 233;
+  --color-gray-dark: 136, 136, 136;
+  --color-gray-back: 24, 24, 24;
+  --color-red-lite: 255, 102, 102;
+  --color-red-dark: 153, 0, 0;
+  --color-red-back: 26, 10, 10;
+  --color-pink-lite: 255, 0, 204;
+  --color-pink-dark: 143, 0, 114;
+  --color-pink-back: 32, 0, 25;
+  --color-teal-lite: 102, 255, 255;
+  --color-teal-dark: 0, 153, 153;
+  --color-teal-back: 10, 26, 26;
+  --color-blue-lite: 8, 155, 216;
+  --color-blue-dark: 6, 92, 129;
+  --color-blue-back: 2, 24, 34;
+  --color-green-lite: 102, 255, 102;
+  --color-green-dark: 0, 153, 0;
+  --color-green-back: 10, 26, 10;
+  --color-yellow-lite: 255, 255, 102;
+  --color-yellow-dark: 153, 153, 0;
+  --color-yellow-back: 26, 26, 10;
+
+  /* scroll */ }

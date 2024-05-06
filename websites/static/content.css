@@ -1,0 +1,80 @@
+
+
+
+/******************************/
+/* elements for list of links */
+/******************************/
+
+div#links {
+  margin: 20px 0px 0px 20px;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out; }
+
+
+div#links>ul>li>a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 32px 32px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 32px;
+  padding-left: 40px;
+  position: relative; }
+
+div#links>ul>li>a:hover {
+  color: rgba(var(--theme), 1); }
+
+div#links>ul>li:not(:first-child) {
+  margin-top: 20px; }
+
+
+div#links>ul>li>a:after {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px 18px;
+  color: rgba(var(--foreground), 1);
+  content: '';
+  font-size: 14px;
+  font-weight: normal;
+  height: 32px;
+  padding-left: 22px;
+  position: absolute;
+  right: -66px;
+  top: 0px;
+  width: 32px; }
+
+
+/******************************/
+/* elements for list of links */
+/******************************/
+
+div#links>ul>li>p {
+  font-size: 16px;
+  line-height: 20px;
+  width: 400px; }
+
+
+/******************************/
+/* elements for list of links */
+/******************************/
+
+div#links>ul>li._github>a {
+  background-image:URL('github.png'); }
+
+
+/******************************/
+/* elements for list of links */
+/******************************/
+
+div#links>ul>li._python>a:after {
+  content: 'Python';
+  background-image:URL('python.png'); }
+
+div#links>ul>li._makefile>a:after {
+  content: 'Makefile';
+  background-image:URL('makefile.png'); }
+
+div#links>ul>li._webcode>a:after {
+  content: 'HTML/JavaScript';
+  background-image:URL('webcode.png'); }

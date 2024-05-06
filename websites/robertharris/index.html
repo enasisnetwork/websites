@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Robert Harris</title>
+
+    <!-- link hrefs -->
+    <link rel="stylesheet" href="static/common.css">
+    <link rel="stylesheet" href="static/colors.css">
+    <link rel="stylesheet" href="static/content.css">
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="icon" href="static/icon.png">
+    <link rel="canonical" href="http://robertharris.io">
+    <!-- link hrefs -->
+
+    <!-- inline style -->
+    <style>
+
+      :root {
+        --background: var(--color-teal-back);
+        --theme: var(--color-teal-lite);
+        --scroll: var(--color-teal-dark); }
+
+    </style>
+    <!-- inline style -->
+
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta property="og:site_name" content="Robert Harris">
+    <meta
+     property="og:type"
+     content="website">
+    <meta
+     property="og:title"
+     content="Robert Harris">
+    <meta
+     property="og:url"
+     content="http://robertharris.io">
+    <meta
+     property="og:image"
+     content="http://robertharris.io/static/icon.png">
+    <meta
+     name="robots"
+     content="index, follow">
+    <meta
+     name="viewport"
+     content="width=device-width, initial-scale=1.0">
+    <!-- meta data -->
+
+    <!-- JavaScript -->
+    <script>
+
+
+
+      function showitem(
+        selector, opacity) {
+
+        let element =
+          document
+          .getElementById(selector);
+
+        let style = element.style;
+
+        style.opacity = opacity; }
+
+
+
+      window.onload = function() {
+
+        showitem('icon', '0.1');
+        showitem('links', '1'); };
+
+
+    </script>
+    <!-- JavaScript -->
+
+  </head>
+  <body>
+    <div id="icon"></div>
+    <div id="links"><ul>
+      <li class="_github _python">
+        <a href="https://github.com/enasisnetwork/encommon">encommon</a>
+        <p>Common classes and functions used in
+        various public and private projects.</p>
+      </li>
+      <li class="_github _python">
+        <a href="https://github.com/enasisnetwork/enhomie">enhomie</a>
+        <p>Define desired scenes for groups
+        using flexible conditional plugins.</p>
+      </li>
+      <li class="_github _python">
+        <a href="https://github.com/enasisnetwork/enconnect">enconnect</a>
+        <p>Functions and classes for connecting
+        to remote services and whatnot.</p>
+      </li>
+      <li class="_github _makefile">
+        <a href="https://github.com/enasisnetwork/workspace">workspace</a>
+        <p>General workspace environment for
+        developing public and private projects.</p>
+      </li>
+      <li class="_github _webcode">
+        <a href="https://github.com/enasisnetwork/websites">websites</a>
+        <p>Websites associated with Enasis Network.</p>
+      </li>
+    </ul></div>
+  </body>
+</html>
