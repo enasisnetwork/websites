@@ -71,6 +71,10 @@ div#links>ul>li._python>a:after {
   content: 'Python';
   background-image:URL('python.png'); }
 
+div#links>ul>li._ansible>a:after {
+  content: 'Ansible';
+  background-image:URL('ansible.png'); }
+
 div#links>ul>li._makefile>a:after {
   content: 'Makefile';
   background-image:URL('makefile.png'); }
