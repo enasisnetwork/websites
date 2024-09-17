@@ -7,7 +7,6 @@
 
 :root {
 
-  /* background */
   --foreground: 250, 250, 250;
 
   --color-gray-lite: 233, 233, 233;
@@ -30,6 +29,4 @@
   --color-green-back: 10, 26, 10;
   --color-yellow-lite: 255, 255, 102;
   --color-yellow-dark: 153, 153, 0;
-  --color-yellow-back: 26, 26, 10;
-
-  /* scroll */ }
+  --color-yellow-back: 26, 26, 10; }
