@@ -11,7 +11,7 @@ div#links {
   transition: opacity 500ms ease-in-out; }
 
 
-div#links>ul>li>a {
+div#links>ul>li>a.link {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 32px 32px;
@@ -22,14 +22,14 @@ div#links>ul>li>a {
   padding-left: 40px;
   position: relative; }
 
-div#links>ul>li>a:hover {
+div#links>ul>li>a.link:hover {
   color: rgba(var(--theme), 1); }
 
 div#links>ul>li:not(:first-child) {
   margin-top: 20px; }
 
 
-div#links>ul>li>a:after {
+div#links>ul>li>a.link:after {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 18px 18px;
@@ -59,7 +59,7 @@ div#links>ul>li>p {
 /* elements for list of links */
 /******************************/
 
-div#links>ul>li._github>a {
+div#links>ul>li._github>a.link {
   background-image:URL('github.png'); }
 
 
@@ -67,18 +67,18 @@ div#links>ul>li._github>a {
 /* elements for list of links */
 /******************************/
 
-div#links>ul>li._python>a:after {
+div#links>ul>li._python>a.link:after {
   content: 'Python';
   background-image:URL('python.png'); }
 
-div#links>ul>li._ansible>a:after {
+div#links>ul>li._ansible>a.link:after {
   content: 'Ansible';
   background-image:URL('ansible.png'); }
 
-div#links>ul>li._makefile>a:after {
+div#links>ul>li._makefile>a.link:after {
   content: 'Makefile';
   background-image:URL('makefile.png'); }
 
-div#links>ul>li._webcode>a:after {
+div#links>ul>li._webcode>a.link:after {
   content: 'HTML/JavaScript';
   background-image:URL('webcode.png'); }

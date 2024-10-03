@@ -20,6 +20,20 @@
         --theme: var(--color-teal-lite);
         --scroll: var(--color-teal-dark); }
 
+      div#links>ul>li>a:has(img),
+       div#links>ul>li>img {
+        opacity: 0.5;
+        margin-top: 2px;
+        transition: opacity 200ms ease-in-out; }
+
+      div#links>ul>li:hover>a:has(img),
+       div#links>ul>li:hover>img {
+        opacity: 0.80; }
+
+      div#links>ul>li>a:hover:has(img),
+       div#links>ul>li>img:hover {
+        opacity: 1; }
+
     </style>
     <!-- inline style -->
 
@@ -78,38 +92,76 @@
     <div id="icon"></div>
     <div id="links"><ul>
       <li class="_github _python">
-        <a href="https://github.com/enasisnetwork/encommon">encommon</a>
+        <a
+          href="https://github.com/enasisnetwork/encommon"
+          class="link">encommon</a><br>
         <p>Common classes and functions used in
         various public and private projects.</p>
+        <a href="http://pypi.org/project/encommon">
+          <img src="https://enasisnetwork.github.io/encommon/badges/pypi.png">
+        </a>
+        <a href="https://github.com/enasisnetwork/encommon">
+          <img src="https://enasisnetwork.github.io/encommon/badges/coverage.png">
+        </a>
       </li>
       <li class="_github _python">
-        <a href="https://github.com/enasisnetwork/enhomie">enhomie</a>
+        <a
+          href="https://github.com/enasisnetwork/enhomie"
+          class="link">enhomie</a><br>
         <p>Define desired scenes for groups
         using flexible conditional plugins.</p>
+        <a href="http://pypi.org/project/enhomie">
+          <img src="https://enasisnetwork.github.io/enhomie/badges/pypi.png">
+        </a>
+        <a href="https://github.com/enasisnetwork/enhomie">
+          <img src="https://enasisnetwork.github.io/enhomie/badges/coverage.png">
+        </a>
       </li>
       <li class="_github _python">
-        <a href="https://github.com/enasisnetwork/enrobie">enrobie</a>
+        <a
+          href="https://github.com/enasisnetwork/enrobie"
+          class="link">enrobie</a><br>
         <p>Simple bot that connects to multiple
         chat networks and allows for plugins.</p>
+        <a href="http://pypi.org/project/enrobie">
+          <img src="https://enasisnetwork.github.io/enrobie/badges/pypi.png">
+        </a>
+        <a href="https://github.com/enasisnetwork/enrobie">
+          <img src="https://enasisnetwork.github.io/enrobie/badges/coverage.png">
+        </a>
       </li>
       <li class="_github _ansible">
-        <a href="https://github.com/enasisnetwork/orchestro">orchestro</a>
+        <a
+          href="https://github.com/enasisnetwork/orchestro"
+          class="link">orchestro</a>
         <p>Project for operating Ansible playbooks
         which manages and provisions systems.</p>
       </li>
       <li class="_github _python">
-        <a href="https://github.com/enasisnetwork/enconnect">enconnect</a>
+        <a
+          href="https://github.com/enasisnetwork/enconnect"
+          class="link">enconnect</a><br>
         <p>Functions and classes for connecting
         to remote services and whatnot.</p>
+        <a href="http://pypi.org/project/enconnect">
+          <img src="https://enasisnetwork.github.io/enconnect/badges/pypi.png">
+        </a>
+        <a href="https://github.com/enasisnetwork/enconnect">
+          <img src="https://enasisnetwork.github.io/enconnect/badges/coverage.png">
+        </a>
       </li>
       <li class="_github _makefile">
-        <a href="https://github.com/enasisnetwork/workspace">workspace</a>
+        <a
+          href="https://github.com/enasisnetwork/workspace"
+          class="link">workspace</a>
         <p>General workspace environment for
         developing public and private projects.</p>
       </li>
       <li class="_github _webcode">
-        <a href="https://github.com/enasisnetwork/websites">websites</a>
-        <p>Websites associated with Enasis Network.</p>
+        <a
+          href="https://github.com/enasisnetwork/websites"
+          class="link">websites</a>
+        <p>Websites associated with the Enasis Network.</p>
       </li>
     </ul></div>
   </body>
