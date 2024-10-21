@@ -1,41 +1,23 @@
 <!DOCTYPE html>
+<!--
+
+  Enasis Network
+  Website Family
+
+.=============================================.
+|    _______   __    _   _      _   ______    |
+|   |  _____| |  \  | | | |    | | |  ____|   |
+|   | |___    |   \ | | | | /\ | | | |___     |
+|   |  ___|   | |\ \| | | |/  \| | |  ___|    |
+|   | |_____  | | \   | |   /\   | | |        |
+|   |_______| |_|  \__| |__/  \__| |_|        |
+|                                             |
+'============================================='
+
+-->
 <html lang="en">
   <head>
     <title>Robert Harris</title>
-
-    <!-- link hrefs -->
-    <link rel="stylesheet" href="static/common.css">
-    <link rel="stylesheet" href="static/colors.css">
-    <link rel="stylesheet" href="static/content.css">
-    <link rel="stylesheet" href="static/fonts.css">
-    <link rel="icon" href="static/icon.png">
-    <link rel="canonical" href="http://robertharris.io">
-    <!-- link hrefs -->
-
-    <!-- inline style -->
-    <style>
-
-      :root {
-        --background: var(--color-teal-back);
-        --theme: var(--color-teal-lite);
-        --scroll: var(--color-teal-dark); }
-
-      div#links>ul>li>a:has(img),
-       div#links>ul>li>img {
-        opacity: 0.5;
-        margin-top: 2px;
-        transition: opacity 200ms ease-in-out; }
-
-      div#links>ul>li:hover>a:has(img),
-       div#links>ul>li:hover>img {
-        opacity: 0.80; }
-
-      div#links>ul>li>a:hover:has(img),
-       div#links>ul>li>img:hover {
-        opacity: 1; }
-
-    </style>
-    <!-- inline style -->
 
     <!-- meta data -->
     <meta charset="utf-8">
@@ -48,121 +30,227 @@
      content="Robert Harris">
     <meta
      property="og:url"
-     content="http://robertharris.io">
+     content="https://robertharris.io">
     <meta
      property="og:image"
-     content="http://robertharris.io/static/icon.png">
-    <meta
-     name="robots"
-     content="index, follow">
+     content="https://robertharris.io/static/icon.png">
     <meta
      name="viewport"
      content="width=device-width, initial-scale=1.0">
     <!-- meta data -->
 
-    <!-- JavaScript -->
-    <script>
-
-
-
-      function showitem(
-        selector, opacity) {
-
-        let element =
-          document
-          .getElementById(selector);
-
-        let style = element.style;
-
-        style.opacity = opacity; }
-
-
-
-      window.onload = function() {
-
-        showitem('icon', '0.1');
-        showitem('links', '1'); };
-
-
-    </script>
-    <!-- JavaScript -->
+    <!-- link hrefs -->
+    <link rel="icon" href="static/icon.png" type="image/png">
+    <link rel="canonical" href="https://robertharris.io">
+    <link rel="stylesheet" href="static/styles/common.css">
+    <link rel="stylesheet" href="static/styles/fonts.css">
+    <link rel="stylesheet" href="static/styles/colors.css">
+    <link rel="stylesheet" href="static/styles/elements.css">
+    <link rel="stylesheet" href="static/styles/content.css">
+    <!-- link hrefs -->
 
   </head>
   <body>
-    <div id="icon"></div>
-    <div id="links"><ul>
-      <li class="_github _python">
-        <a
-          href="https://github.com/enasisnetwork/encommon"
-          class="link">encommon</a><br>
-        <p>Common classes and functions used in
-        various public and private projects.</p>
-        <a href="http://pypi.org/project/encommon">
-          <img src="https://enasisnetwork.github.io/encommon/badges/pypi.png">
-        </a>
-        <a href="https://github.com/enasisnetwork/encommon">
-          <img src="https://enasisnetwork.github.io/encommon/badges/coverage.png">
-        </a>
+    <div id="logo">Robert Harris</div>
+
+
+    <!-- links -->
+    <h1>Interesting Projects</h1>
+    <ul class="links">
+      <li class="python">
+        <h2>enhomie</h2>
+        <p>
+          Define desired scenes for groups using flexible
+          conditional plugins.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View on the official
+            <a class="python" href="http://pypi.org/project/enhomie">PyPi</a>
+            website</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enhomie/badges/pypi.png">
+          </li>
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/enhomie">GitHub</a>
+            repository</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enhomie/badges/pytest.png">
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enhomie/badges/coverage.png">
+          </li>
+          <li class="margin">
+            Read the
+            <a class="sphinx" href="https://enasisnetwork.github.io/enhomie/sphinx">Sphinx</a>
+            documentation
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enhomie/badges/sphinx.png">
+          </li>
+        </ul>
       </li>
-      <li class="_github _python">
-        <a
-          href="https://github.com/enasisnetwork/enhomie"
-          class="link">enhomie</a><br>
-        <p>Define desired scenes for groups
-        using flexible conditional plugins.</p>
-        <a href="http://pypi.org/project/enhomie">
-          <img src="https://enasisnetwork.github.io/enhomie/badges/pypi.png">
-        </a>
-        <a href="https://github.com/enasisnetwork/enhomie">
-          <img src="https://enasisnetwork.github.io/enhomie/badges/coverage.png">
-        </a>
+      <li class="python">
+        <h2>enrobie</h2>
+        <p>
+          Barebones service for connecting to multiple
+          upstream chat networks.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View on the official
+            <a class="python" href="http://pypi.org/project/enrobie">PyPi</a>
+            website</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enrobie/badges/pypi.png">
+          </li>
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/enrobie">GitHub</a>
+            repository</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enrobie/badges/pytest.png">
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enrobie/badges/coverage.png">
+          </li>
+          <li class="margin">
+            Read the
+            <a class="sphinx" href="https://enasisnetwork.github.io/enrobie/sphinx">Sphinx</a>
+            documentation
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enrobie/badges/sphinx.png">
+          </li>
+        </ul>
       </li>
-      <li class="_github _python">
-        <a
-          href="https://github.com/enasisnetwork/enrobie"
-          class="link">enrobie</a><br>
-        <p>Simple bot that connects to multiple
-        chat networks and allows for plugins.</p>
-        <a href="http://pypi.org/project/enrobie">
-          <img src="https://enasisnetwork.github.io/enrobie/badges/pypi.png">
-        </a>
-        <a href="https://github.com/enasisnetwork/enrobie">
-          <img src="https://enasisnetwork.github.io/enrobie/badges/coverage.png">
-        </a>
+      <li class="ansible">
+        <h2>orchestro</h2>
+        <p>
+          Project for executing the Ansible playbooks
+          for system automation.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/orchestro">GitHub</a>
+            repository</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/orchestro/badges/ansblint.png">
+          </li>
+          <li class="margin">
+            Read the
+            <a class="sphinx" href="https://enasisnetwork.github.io/orchestro/sphinx">Sphinx</a>
+            documentation
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/orchestro/badges/sphinx.png">
+          </li>
+        </ul>
       </li>
-      <li class="_github _python">
-        <a
-          href="https://github.com/enasisnetwork/enconnect"
-          class="link">enconnect</a><br>
-        <p>Functions and classes for connecting
-        to remote services and whatnot.</p>
-        <a href="http://pypi.org/project/enconnect">
-          <img src="https://enasisnetwork.github.io/enconnect/badges/pypi.png">
-        </a>
-        <a href="https://github.com/enasisnetwork/enconnect">
-          <img src="https://enasisnetwork.github.io/enconnect/badges/coverage.png">
-        </a>
+    </ul>
+    <h1>Project Dependencies</h1>
+    <ul class="links">
+      <li class="python">
+        <h2>encommon</h2>
+        <p>
+          Common classes and functions used in various
+          public and private projects.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View on the official
+            <a class="python" href="http://pypi.org/project/encommon">PyPi</a>
+            website</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/encommon/badges/pypi.png">
+          </li>
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/encommon">GitHub</a>
+            repository</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/encommon/badges/pytest.png">
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/encommon/badges/coverage.png">
+          </li>
+          <li class="margin">
+            Read the
+            <a class="sphinx" href="https://enasisnetwork.github.io/encommon/sphinx">Sphinx</a>
+            documentation
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/encommon/badges/sphinx.png">
+          </li>
+        </ul>
       </li>
-      <li class="_github _ansible">
-        <a
-          href="https://github.com/enasisnetwork/orchestro"
-          class="link">orchestro</a>
-        <p>Project for operating Ansible playbooks
-        which manages and provisions systems.</p>
+      <li class="python">
+        <h2>enconnect</h2>
+        <p>
+          Functions and classes for connecting to remote
+          services and whatnot.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View on the official
+            <a class="python" href="http://pypi.org/project/enconnect">PyPi</a>
+            website</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enconnect/badges/pypi.png">
+          </li>
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/enconnect">GitHub</a>
+            repository</li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enconnect/badges/pytest.png">
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enconnect/badges/coverage.png">
+          </li>
+          <li class="margin">
+            Read the
+            <a class="sphinx" href="https://enasisnetwork.github.io/enconnect/sphinx">Sphinx</a>
+            documentation
+          </li>
+          <li class="image">
+            <img src="https://enasisnetwork.github.io/enconnect/badges/sphinx.png">
+          </li>
+        </ul>
       </li>
-      <li class="_github _makefile">
-        <a
-          href="https://github.com/enasisnetwork/workspace"
-          class="link">workspace</a>
-        <p>General workspace environment for
-        developing public and private projects.</p>
+    </ul>
+    <h1>Additional Projects</h1>
+    <ul class="links">
+      <li class="makefile">
+        <h2>workspace</h2>
+        <p>
+          General workspace environment for developing
+          public and private projects.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/workspace">GitHub</a>
+            repository</li>
+        </ul>
       </li>
-      <li class="_github _webcode">
-        <a
-          href="https://github.com/enasisnetwork/websites"
-          class="link">websites</a>
-        <p>Websites associated with the Enasis Network.</p>
+      <li class="webcode">
+        <h2>websites</h2>
+        <p>
+          Websites associated with the Enasis Network.
+        </p>
+        <ul class="sublinks">
+          <li class="margin">
+            View the
+            <a class="github" href="https://github.com/enasisnetwork/websites">GitHub</a>
+            repository</li>
+        </ul>
       </li>
-    </ul></div>
+    </ul>
+    <!-- links -->
+
+
   </body>
 </html>

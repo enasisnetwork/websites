@@ -1,0 +1,188 @@
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+
+h1, h2 {
+  color: rgba(var(--foreground), .75);
+  font-family: 'Roboto';
+  font-weight: bold;
+  letter-spacing: 0;
+  text-shadow: .1rem .1rem rgba(var(--color-teal-dark), .25);
+  transition: all 300ms ease-in-out; }
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-top: 2rem; }
+
+h2 {
+  font-size: 2rem;
+  line-height: 2rem; }
+
+
+@media (max-width: 800.00px) {
+
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 3rem; }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 3rem; } }
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.links>li {
+  position: relative;
+  margin-left: 3.5em;
+  margin-top: 1em; }
+
+
+.links>li:before {
+  background-image: url('../icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  height: 3em;
+  left: -3.6em;
+  margin-right: .1em;
+  position: absolute;
+  top: .5em;
+  width: 3em;
+  vertical-align: middle; }
+
+
+@media (max-width: 800.00px) {
+
+  .links>li {
+    margin-left: 4.5em; }
+
+  .links>li:before {
+    height: 4em;
+    left: -4.6em;
+    width: 4em;
+    top: 1em; } }
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.links>li.ansible:before {
+  background-image: url('../images/ansible.png'); }
+
+.links>li.makefile:before {
+  background-image: url('../images/makefile.png'); }
+
+.links>li.python:before {
+  background-image: url('../images/python.png'); }
+
+.links>li.webcode:before {
+  background-image: url('../images/webcode.png'); }
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.links>li>p {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  max-width: 40vw; }
+
+
+@media (max-width: 800.00px) {
+
+  .links>li>p {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    max-width: 80vw; } }
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.sublinks>li {
+  padding: .1em; }
+
+
+.sublinks>li:not(.image) {
+  font-size: 1.5rem;
+  line-height: 1.5rem; }
+
+
+.sublinks>li.margin {
+  margin-top: .5em; }
+
+
+@media (max-width: 800.00px) {
+
+  .sublinks>li:not(.image) {
+    font-size: 2rem;
+    line-height: 2rem; } }
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.sublinks>li:not(.image)>a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  position: relative;
+  margin-left: 1.1em;
+  transition: all 300ms ease-in-out; }
+
+
+.sublinks>li:not(.image)>a:before {
+  background-image: url('../icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  height: 1em;
+  left: -1.1em;
+  position: absolute;
+  top: .1em;
+  width: 1em;
+  vertical-align: middle; }
+
+.sublinks>li:not(.image)>a:hover {
+  color: rgba(var(--color-teal-lite), 1); }
+
+
+@media (max-width: 800.00px) {
+
+  .sublinks>li:not(.image)>a {
+    font-size: 2rem;
+    line-height: 2rem; } }
+
+
+
+/*********************************/
+/* Elements for website contents */
+/*********************************/
+
+.sublinks>li:not(.image)>a.github:before {
+  background-image: url('../images/github.png'); }
+
+.sublinks>li:not(.image)>a.python:before {
+  background-image: url('../images/python.png'); }
+
+.sublinks>li:not(.image)>a.sphinx:before {
+  background-image: url('../images/sphinx.png'); }

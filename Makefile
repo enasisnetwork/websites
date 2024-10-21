@@ -44,7 +44,7 @@ jquery:
 		from their website..<c0>)
 	@wget --quiet \
 		https://code.jquery.com/jquery-3.7.1.min.js \
-		-O website/static/jquery.js
+		-O websites/scripts/jquery.js
 	$(call MAKE_PR1NT,<cD>DONE<c0>)
 
 

@@ -12,7 +12,7 @@
   font-weight: 300;
   src: local('Roboto Light'),
     local('Roboto-Light'),
-    url('fonts/roboto/light.ttf')
+    url('../fonts/roboto/light.ttf')
     format('truetype'); }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-weight: 300;
   src: local('Roboto Light Italic'),
     local('Roboto-LightItalic'),
-    url('fonts/roboto/lightitalic.ttf')
+    url('../fonts/roboto/lightitalic.ttf')
     format('truetype'); }
 
 
@@ -31,7 +31,7 @@
   font-weight: 400;
   src: local('Roboto Regular'),
     local('Roboto-Regular'),
-    url('fonts/roboto/regular.ttf')
+    url('../fonts/roboto/regular.ttf')
     format('truetype'); }
 
 @font-face {
@@ -40,7 +40,7 @@
   font-weight: 400;
   src: local('Roboto Italic'),
     local('Roboto-Italic'),
-    url('fonts/roboto/italic.ttf')
+    url('../fonts/roboto/italic.ttf')
     format('truetype'); }
 
 
@@ -50,7 +50,7 @@
   font-weight: 700;
   src: local('Roboto Bold'),
     local('Roboto-Bold'),
-    url('fonts/roboto/bold.ttf')
+    url('../fonts/roboto/bold.ttf')
     format('truetype'); }
 
 @font-face {
@@ -59,7 +59,7 @@
   font-weight: 700;
   src: local('Roboto Bold Italic'),
     local('Roboto-BoldItalic'),
-    url('fonts/roboto/bolditalic.ttf')
+    url('../fonts/roboto/bolditalic.ttf')
     format('truetype'); }
 
 
@@ -75,7 +75,7 @@
   font-weight: 300;
   src: local('Robono Light'),
     local('Robono-Light'),
-    url('fonts/robono/light.ttf')
+    url('../fonts/robono/light.ttf')
     format('truetype'); }
 
 @font-face {
@@ -84,7 +84,7 @@
   font-weight: 300;
   src: local('Robono Light Italic'),
     local('Robono-LightItalic'),
-    url('fonts/robono/lightitalic.ttf')
+    url('../fonts/robono/lightitalic.ttf')
     format('truetype'); }
 
 
@@ -94,7 +94,7 @@
   font-weight: 400;
   src: local('Robono Regular'),
     local('Robono-Regular'),
-    url('fonts/robono/regular.ttf')
+    url('../fonts/robono/regular.ttf')
     format('truetype'); }
 
 @font-face {
@@ -103,7 +103,7 @@
   font-weight: 400;
   src: local('Robono Italic'),
     local('Robono-Italic'),
-    url('fonts/robono/italic.ttf')
+    url('../fonts/robono/italic.ttf')
     format('truetype'); }
 
 
@@ -113,7 +113,7 @@
   font-weight: 700;
   src: local('Robono Bold'),
     local('Robono-Bold'),
-    url('fonts/robono/bold.ttf')
+    url('../fonts/robono/bold.ttf')
     format('truetype'); }
 
 @font-face {
@@ -122,5 +122,5 @@
   font-weight: 700;
   src: local('Robono Bold Italic'),
     local('Robono-BoldItalic'),
-    url('fonts/robono/bolditalic.ttf')
+    url('../fonts/robono/bolditalic.ttf')
     format('truetype'); }
