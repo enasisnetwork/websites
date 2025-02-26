@@ -32,23 +32,6 @@ help: .check-python
 
 
 
-.PHONY: jquery
-jquery:
-	@## Collect the latest jquery and install
-	@#
-	$(call MAKE_PR2NT,\
-		<cD>make <cL>jquery<c0>)
-	@#
-	$(call MAKE_PR3NT,\
-		<c37>Downloading <c90>jquery<c37> \
-		from their website..<c0>)
-	@wget --quiet \
-		https://code.jquery.com/jquery-3.7.1.min.js \
-		-O websites/scripts/jquery.js
-	$(call MAKE_PR1NT,<cD>DONE<c0>)
-
-
-
 .check-python:
 ifndef PYTHON
 	$(error PYTHON variable is not defined)
