@@ -167,3 +167,6 @@ div#logo {
 
 .sublinks>li:not(.image)>a.sphinx:before {
   background-image: url('../images/sphinx.png'); }
+
+.sublinks>li:not(.image)>a.ansible:before {
+  background-image: url('../images/ansible.png'); }
