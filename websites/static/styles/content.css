@@ -101,6 +101,10 @@ div#logo {
 .sublinks>li {
   padding: .1em; }
 
+.sublinks>li>.sublinks {
+  margin-left: 1em;
+  margin-top: .5em; }
+
 
 .sublinks>li:not(.image) {
   font-size: 1.5rem;
