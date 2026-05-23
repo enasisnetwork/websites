@@ -9,12 +9,17 @@
 
 PYTHON ?= python
 
-MAKE_COLOR ?= 6
 
-MAKE_PRINT = @COLOR=$(MAKE_COLOR) \
-	$(PYTHON) -Bc 'if 1: \
-		from makefile import makeout; \
-		makeout("$(1)", "$(2)");'
+
+MAKE_COLOR = 6
+
+MAKE_PRINT = \
+	@$(PYTHON) -Bc 'if 1: \
+		from enbasics import makeout; \
+		makeout( \
+			color=$(MAKE_COLOR), \
+			string="$(1)", \
+			prefix="$(2)");'
 
 MAKE_PR1NT = $(call MAKE_PRINT,$(1),text)
 MAKE_PR2NT = $(call MAKE_PRINT,$(1),base)
@@ -26,8 +31,13 @@ MAKE_PR3NT = $(call MAKE_PRINT,$(1),more)
 help: .check-python
 	@## Construct this helpful menu of recipes
 	$(call MAKE_PRINT)
-	@COLOR=$(MAKE_COLOR) \
-		$(PYTHON) -B makefile.py
+	@$(PYTHON) -Bc 'if 1: \
+		from enbasics import makefile; \
+		makefile( \
+			color=$(MAKE_COLOR), \
+			path="Makefile", \
+			name="websites", \
+			version="0.3.6");'
 	$(call MAKE_PRINT)
 
 
