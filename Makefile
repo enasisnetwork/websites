@@ -37,7 +37,7 @@ help: .check-python
 			color=$(MAKE_COLOR), \
 			path="Makefile", \
 			name="websites", \
-			version="0.3.6");'
+			version="0.3.7");'
 	$(call MAKE_PRINT)
 
 
